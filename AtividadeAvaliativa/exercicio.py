@@ -117,7 +117,7 @@ def montanteComposto():
             capital = float(input('Digite o capital: '))
             tempo = float(input('Digite o tempo em meses: '))
             taxa = ((montante / capital) ** (1/tempo)) - 1
-            print(f'A taxa de juros é de {(taxa*100):.2f}% a.m.')
+            print(f'A taxa de juros é de {(taxa * 100):.2f}% a.m.')
             break
 
         elif opcaoFuncao == 5:
